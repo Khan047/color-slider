@@ -1,0 +1,65 @@
+
+.main{
+
+
+   margin: 0 auto;
+   display: block;
+
+}
+.flex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 400px;
+  bottom:420px;
+  justify-content: space-evenly;
+
+
+
+
+
+
+}
+
+.flex-container > div {
+
+  background-color: #f1f1f1;
+  width: 50px;
+  margin: 17px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+
+#test{
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+.cell {
+
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
